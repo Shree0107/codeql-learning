@@ -32,12 +32,7 @@ def calculate_discount(price, customer_type, is_holiday, has_coupon, loyalty_yea
 
 def add_numbers(a, b):
     result = a + b
-    unused_variable = 42
-    return result
-
-def add_numbers(a, b):
-    result = a + b
-    unused_variable = 42  # Code smell: unused local variable
+    
     return result
 
 
