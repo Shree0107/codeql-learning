@@ -12,6 +12,9 @@ def get_user(username):
     result = cursor.fetchall()
     return result
 
+def test_function():
+    unused_variable = 123
+    return "Hello SonarQube"
 
 def hash_password(password):
     # Vulnerability: MD5 is a weak/broken hash for passwords
