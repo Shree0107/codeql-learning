@@ -13,6 +13,7 @@ def get_user(username):
     return result
 
 
+
 def hash_password(password):
     # Vulnerability: MD5 is a weak/broken hash for passwords
     return hashlib.sha256(password.encode()).hexdigest()
